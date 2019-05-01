@@ -4,7 +4,9 @@ class Application
     resp = Rack::Response.new 
     
     if time < noon 
-      resp.write 
+      resp.write "Good Morning!"
+    else 
+      resp.write "Good Afternoon!"
     
     resp.finish 
   end
