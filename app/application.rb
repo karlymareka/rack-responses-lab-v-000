@@ -4,6 +4,7 @@ class Application
     resp = Rack::Response.new 
     
     if time < noon 
+      resp.write 
     
     resp.finish 
   end
