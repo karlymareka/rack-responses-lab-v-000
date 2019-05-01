@@ -1,6 +1,6 @@
 class Application 
   
-  dev call(env)
+  def call(env)
   
   end 
 end 
